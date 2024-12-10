@@ -1,7 +1,10 @@
 package oncall;
 
+import oncall.controller.SheduleController;
+
 public class Application {
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
+        SheduleController sheduleController = new SheduleController();
+        sheduleController.run();
     }
 }
